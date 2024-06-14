@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKING MANAGEMENT SYSTEM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div id="log_box">
+        <input type="text" id="user_in"placeholder="USERNAME"> <br>
+        <input type="password" id="pass_in"placeholder="PASSWORD"><br>
+        <button id="log_btn">Log In</button>
+    </div>
+
+    <div id="main">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" id="deposit-card" style="width: 18rem;  margin-left: 20px;">
+  <div class="card-body">
+    <h5 class="card-title">Deposit</h5>
+    <h6 class="card-subtitle ">$ <span id="depo-am">00</span></h6>
+    <p class="card-text"></p>
+  </div>
+</div>
+</div>
+
+
+            <div class="col-4">
+                <div class="card" id="withdraw-card" style="width: 18rem;margin-left: 20px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Withdraw</h5>
+                      <h6 class="card-subtitle ">$ <span id="with-am">00</span></h6>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" id="balance-card" style="width: 18rem; margin-left: 20px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Balance</h5>
+                      <h6 class="card-subtitle ">$ <span id="balance">00</span></h6>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+
+        <div class="row" style="margin-top: 70px; margin-bottom: 150px;">
+
+            <div class="col-6">
+                <div class="card" id="deposit-amount" style="width: 450px; margin-left: 50px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Deposit Amount $ <span id="deposit-number">00</span></h5>
+                      <input type="number" id="input-deposit" placeholder="Enter your Deposit Amount"><br>
+                      <button id="Deposit-btn">Deposit</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6">
+                <div class="card" id="withdraw-amount" style="width: 450px;  margin-left: 50px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Withdraw Amount $ <span id="with-amount">00</span></h5>
+                      <input type="number" id="with-input" placeholder="Enter Your Withdrawal Amount"><br>
+                      <button id="Withdraw-btn">Withdraw</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="bank.js"></script>
+</body>
+</html>
