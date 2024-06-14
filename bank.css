@@ -1,0 +1,49 @@
+#log_box
+{
+    background-color: rgb(255, 123, 0);
+    height:300px;
+    width:300px;
+    margin-left:500px;
+    text-align: center;
+    margin-top: 20px;
+}
+input
+{
+    margin-top: 10px;
+}
+button
+{
+    margin-top: 10px;
+}
+#deposit-card
+{
+    background-color: rgb(78, 78, 213);
+	color:#fff;
+}
+#withdraw-card
+{
+    background-color: rgb(43, 200 , 43);
+	color:#fff;
+	
+}
+#balance-card
+{
+    background-color: red;
+	color:#fff;
+	
+}
+#deposit-amount
+{
+    background-color: rgb(238, 123, 16);
+	
+	
+   
+
+}
+#withdraw-amount
+{
+    background-color: rgb(238, 123, 16);
+	
+	
+
+}
